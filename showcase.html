@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase - TechBlitz Deals</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>TechBlitz<span class="neon-text">Deals</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="showcase.html" class="nav-link active">Showcase</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Product <span class="neon-text">Showcase</span></h1>
+            <p class="page-subtitle">Discover amazing tech products with detailed reviews and exclusive deals</p>
+        </div>
+    </section>
+
+    <!-- Filters & Search -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search products..." class="search-input">
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">
+                        <i class="fas fa-th"></i>
+                        All Products
+                    </button>
+                    <button class="filter-btn" data-category="smartphones">
+                        <i class="fas fa-mobile-alt"></i>
+                        Smartphones
+                    </button>
+                    <button class="filter-btn" data-category="laptops">
+                        <i class="fas fa-laptop"></i>
+                        Laptops
+                    </button>
+                    <button class="filter-btn" data-category="wearables">
+                        <i class="fas fa-clock"></i>
+                        Wearables
+                    </button>
+                    <button class="filter-btn" data-category="audio">
+                        <i class="fas fa-headphones"></i>
+                        Audio
+                    </button>
+                    <button class="filter-btn" data-category="smart-home">
+                        <i class="fas fa-home"></i>
+                        Smart Home
+                    </button>
+                    <button class="filter-btn" data-category="gaming">
+                        <i class="fas fa-gamepad"></i>
+                        Gaming
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+            <div class="loading-indicator" id="loading-indicator">
+                <div class="spinner"></div>
+                <p>Loading products...</p>
+            </div>
+            <div class="no-results" id="no-results" style="display: none;">
+                <div class="no-results-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>No products found</h3>
+                <p>Try adjusting your search or filter criteria</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>TechBlitz<span class="neon-text">Deals</span></h3>
+                    <p>Your trusted source for tech reviews and deals.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="showcase.html">Showcase</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechBlitz Deals. All rights reserved. | <a href="about.html">Affiliate Disclaimer</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Review Modal -->
+    <div id="review-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

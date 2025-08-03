@@ -1,0 +1,376 @@
+{
+  "products": [
+    {
+      "id": "iphone-15-pro",
+      "title": "iPhone 15 Pro",
+      "category": "smartphones",
+      "price": "$999",
+      "originalPrice": "$1199",
+      "discount": "17%",
+      "rating": 4.8,
+      "shortDescription": "The most advanced iPhone yet with titanium design and A17 Pro chip.",
+      "image": "📱",
+      "featured": true,
+      "affiliateLink": "https://apple.com/iphone-15-pro",
+      "review": {
+        "summary": "The iPhone 15 Pro represents Apple's most ambitious smartphone yet, featuring a revolutionary titanium design, the groundbreaking A17 Pro chip, and an incredible camera system that redefines mobile photography.",
+        "pros": [
+          "Titanium build feels premium and lightweight",
+          "A17 Pro chip delivers exceptional performance",
+          "48MP camera with 5x telephoto zoom",
+          "USB-C finally replaces Lightning",
+          "Action Button adds customization",
+          "Excellent battery life improvements"
+        ],
+        "cons": [
+          "Premium price point",
+          "Minor heating issues during intensive tasks",
+          "Limited AI features compared to competition",
+          "Storage options still start at 128GB"
+        ],
+        "verdict": "If you're looking for the ultimate iPhone experience and don't mind paying premium prices, the iPhone 15 Pro is an exceptional choice that will serve you well for years to come."
+      }
+    },
+    {
+      "id": "macbook-air-m3",
+      "title": "MacBook Air M3",
+      "category": "laptops",
+      "price": "$1099",
+      "originalPrice": "$1299",
+      "discount": "15%",
+      "rating": 4.9,
+      "shortDescription": "Ultra-portable laptop with M3 chip for incredible performance and battery life.",
+      "image": "💻",
+      "featured": true,
+      "affiliateLink": "https://apple.com/macbook-air-m3",
+      "review": {
+        "summary": "The MacBook Air M3 continues Apple's tradition of creating the perfect ultraportable laptop, now with even more power, better efficiency, and a stunning Liquid Retina display.",
+        "pros": [
+          "M3 chip delivers 20% better performance",
+          "18-hour battery life for all-day productivity",
+          "Silent fanless design",
+          "Beautiful 13.6-inch Liquid Retina display",
+          "MagSafe charging and dual Thunderbolt ports",
+          "Lightweight at just 2.7 pounds"
+        ],
+        "cons": [
+          "Limited to 8GB RAM in base model",
+          "No Face ID, only Touch ID",
+          "Webcam is still 1080p (not 4K)",
+          "External monitor support limited to one display"
+        ],
+        "verdict": "For students, professionals, and anyone needing a reliable, powerful laptop for everyday tasks, the MacBook Air M3 is simply the best ultraportable you can buy."
+      }
+    },
+    {
+      "id": "airpods-pro-2",
+      "title": "AirPods Pro (2nd Gen)",
+      "category": "audio",
+      "price": "$199",
+      "originalPrice": "$249",
+      "discount": "20%",
+      "rating": 4.7,
+      "shortDescription": "Premium noise-cancelling earbuds with spatial audio and adaptive transparency.",
+      "image": "🎧",
+      "featured": true,
+      "affiliateLink": "https://apple.com/airpods-pro",
+      "review": {
+        "summary": "The second-generation AirPods Pro raise the bar for wireless earbuds with improved noise cancellation, better sound quality, and innovative features like adaptive transparency.",
+        "pros": [
+          "Best-in-class active noise cancellation",
+          "Spatial Audio creates immersive experience",
+          "Adaptive Transparency for safety",
+          "6 hours playback, 30 hours with case",
+          "Touch controls are intuitive",
+          "IPX4 water resistance"
+        ],
+        "cons": [
+          "Premium pricing",
+          "Lightning charging case (not USB-C)",
+          "Limited customization options",
+          "Occasional connectivity issues"
+        ],
+        "verdict": "If you're invested in the Apple ecosystem and want the best wireless earbuds money can buy, the AirPods Pro 2nd Gen are worth every penny."
+      }
+    },
+    {
+      "id": "apple-watch-ultra-2",
+      "title": "Apple Watch Ultra 2",
+      "category": "wearables",
+      "price": "$749",
+      "originalPrice": "$799",
+      "discount": "6%",
+      "rating": 4.6,
+      "shortDescription": "The most rugged Apple Watch with titanium case and advanced sports features.",
+      "image": "⌚",
+      "featured": false,
+      "affiliateLink": "https://apple.com/apple-watch-ultra-2",
+      "review": {
+        "summary": "The Apple Watch Ultra 2 is designed for extreme athletes and adventurers, offering unmatched durability, precision GPS, and features that can handle the most demanding conditions.",
+        "pros": [
+          "Titanium case is incredibly durable",
+          "49mm display is bright and readable",
+          "Dual-frequency GPS for accuracy",
+          "Action Button for quick access",
+          "36-hour battery life",
+          "Water resistant to 100 meters"
+        ],
+        "cons": [
+          "Very expensive",
+          "Large size not suitable for small wrists",
+          "Overkill for casual users",
+          "Orange Alpine Loop polarizing"
+        ],
+        "verdict": "For serious athletes, outdoor enthusiasts, and professionals who need a rugged smartwatch, the Ultra 2 is unmatched, but casual users should consider the regular Apple Watch."
+      }
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "title": "Samsung Galaxy S24 Ultra",
+      "category": "smartphones",
+      "price": "$1199",
+      "originalPrice": "$1299",
+      "discount": "8%",
+      "rating": 4.8,
+      "shortDescription": "Android flagship with S Pen, 200MP camera, and advanced AI features.",
+      "image": "📱",
+      "featured": false,
+      "affiliateLink": "https://samsung.com/galaxy-s24-ultra",
+      "review": {
+        "summary": "The Galaxy S24 Ultra is Samsung's most advanced smartphone, featuring cutting-edge AI capabilities, an incredible camera system, and the productivity-focused S Pen.",
+        "pros": [
+          "200MP camera with incredible zoom",
+          "S Pen integration for productivity",
+          "7 years of software updates",
+          "Advanced AI features throughout",
+          "Bright, beautiful 6.8-inch display",
+          "All-day battery with fast charging"
+        ],
+        "cons": [
+          "Very expensive",
+          "Large size difficult to handle",
+          "OneUI can feel overwhelming",
+          "Camera app has learning curve"
+        ],
+        "verdict": "Power users who want the absolute best Android experience with productivity features will love the S24 Ultra, but it's overkill for most users."
+      }
+    },
+    {
+      "id": "dell-xps-13",
+      "title": "Dell XPS 13 (2024)",
+      "category": "laptops",
+      "price": "$899",
+      "originalPrice": "$1099",
+      "discount": "18%",
+      "rating": 4.5,
+      "shortDescription": "Premium ultrabook with Intel Core Ultra and stunning InfinityEdge display.",
+      "image": "💻",
+      "featured": false,
+      "affiliateLink": "https://dell.com/xps-13",
+      "review": {
+        "summary": "The 2024 Dell XPS 13 continues to be one of the best Windows ultrabooks, offering premium build quality, excellent performance, and a gorgeous display in a compact form factor.",
+        "pros": [
+          "Beautiful InfinityEdge display",
+          "Premium build quality",
+          "Intel Core Ultra delivers efficiency",
+          "Compact and lightweight design",
+          "Good selection of ports",
+          "Excellent keyboard and trackpad"
+        ],
+        "cons": [
+          "Webcam placement still awkward",
+          "Limited upgrade options",
+          "Can get warm under load",
+          "Battery life could be better"
+        ],
+        "verdict": "For Windows users wanting a premium ultrabook with excellent build quality and performance, the XPS 13 remains a top choice despite minor flaws."
+      }
+    },
+    {
+      "id": "sony-wh-1000xm5",
+      "title": "Sony WH-1000XM5",
+      "category": "audio",
+      "price": "$299",
+      "originalPrice": "$399",
+      "discount": "25%",
+      "rating": 4.9,
+      "shortDescription": "Industry-leading noise-cancelling over-ear headphones with 30-hour battery.",
+      "image": "🎧",
+      "featured": false,
+      "affiliateLink": "https://sony.com/wh-1000xm5",
+      "review": {
+        "summary": "The Sony WH-1000XM5 represent the pinnacle of noise-cancelling headphone technology, offering exceptional sound quality, comfort, and battery life for audiophiles and travelers alike.",
+        "pros": [
+          "Best-in-class noise cancellation",
+          "Exceptional 30-hour battery life",
+          "Premium sound quality",
+          "Incredibly comfortable for long sessions",
+          "Quick charge gives 3 hours in 3 minutes",
+          "Excellent call quality"
+        ],
+        "cons": [
+          "Don't fold for compact storage",
+          "Touch controls can be finicky",
+          "Premium price point",
+          "Limited wired connectivity options"
+        ],
+        "verdict": "If you prioritize sound quality and noise cancellation above all else, the WH-1000XM5 are the best over-ear headphones you can buy, period."
+      }
+    },
+    {
+      "id": "garmin-fenix-7x",
+      "title": "Garmin Fenix 7X Solar",
+      "category": "wearables",
+      "price": "$699",
+      "originalPrice": "$799",
+      "discount": "13%",
+      "rating": 4.7,
+      "shortDescription": "Ultimate GPS multisport watch with solar charging and mapping features.",
+      "image": "⌚",
+      "featured": false,
+      "affiliateLink": "https://garmin.com/fenix-7x",
+      "review": {
+        "summary": "The Fenix 7X Solar is Garmin's flagship multisport watch, designed for serious athletes who need precise GPS tracking, comprehensive health monitoring, and incredible battery life.",
+        "pros": [
+          "Exceptional GPS accuracy",
+          "Solar charging extends battery life",
+          "Comprehensive health and fitness tracking",
+          "Built-in mapping and navigation",
+          "Rugged build quality",
+          "Weeks of battery life"
+        ],
+        "cons": [
+          "Very expensive",
+          "Large and heavy design",
+          "Complex interface has learning curve",
+          "Smartwatch features are basic"
+        ],
+        "verdict": "Serious athletes and outdoor enthusiasts will appreciate the Fenix 7X's precision and durability, but casual users should look at simpler options."
+      }
+    },
+    {
+      "id": "nest-hub-max",
+      "title": "Google Nest Hub Max",
+      "category": "smart-home",
+      "price": "$199",
+      "originalPrice": "$229",
+      "discount": "13%",
+      "rating": 4.4,
+      "shortDescription": "Smart display with built-in camera for video calls and home security monitoring.",
+      "image": "🏠",
+      "featured": false,
+      "affiliateLink": "https://store.google.com/nest-hub-max",
+      "review": {
+        "summary": "The Nest Hub Max combines the functionality of a smart speaker with a vibrant display and camera, making it perfect for video calls, entertainment, and smart home control.",
+        "pros": [
+          "Large 10-inch touchscreen display",
+          "Built-in camera for video calls",
+          "Excellent Google Assistant integration",
+          "Face Match for personalized content",
+          "Can act as security camera",
+          "Great for controlling smart home devices"
+        ],
+        "cons": [
+          "Privacy concerns with always-listening device",
+          "Limited app ecosystem",
+          "Camera quality could be better",
+          "Requires Google ecosystem for best experience"
+        ],
+        "verdict": "If you're invested in Google's ecosystem and want a central hub for your smart home, the Nest Hub Max offers great functionality at a reasonable price."
+      }
+    },
+    {
+      "id": "ps5-console",
+      "title": "PlayStation 5",
+      "category": "gaming",
+      "price": "$499",
+      "originalPrice": "$499",
+      "discount": "0%",
+      "rating": 4.8,
+      "shortDescription": "Next-gen gaming console with ray tracing, 3D audio, and lightning-fast SSD.",
+      "image": "🎮",
+      "featured": true,
+      "affiliateLink": "https://playstation.com/ps5",
+      "review": {
+        "summary": "The PlayStation 5 delivers on the promise of next-generation gaming with incredibly fast loading, stunning graphics, and innovative features like the DualSense controller's haptic feedback.",
+        "pros": [
+          "Lightning-fast SSD eliminates loading times",
+          "Ray tracing creates stunning visuals",
+          "DualSense controller haptic feedback",
+          "3D audio with compatible headphones",
+          "Backward compatibility with PS4 games",
+          "Impressive exclusive game library"
+        ],
+        "cons": [
+          "Large, bulky design",
+          "Limited storage space",
+          "Can be noisy under load",
+          "Still difficult to find in stock"
+        ],
+        "verdict": "The PS5 is a gaming powerhouse that truly delivers next-gen experiences. If you can find one in stock, it's absolutely worth the investment for any serious gamer."
+      }
+    },
+    {
+      "id": "steam-deck-oled",
+      "title": "Steam Deck OLED",
+      "category": "gaming",
+      "price": "$549",
+      "originalPrice": "$649",
+      "discount": "15%",
+      "rating": 4.6,
+      "shortDescription": "Portable PC gaming handheld with vibrant OLED display and improved battery.",
+      "image": "🎮",
+      "featured": false,
+      "affiliateLink": "https://store.steampowered.com/steamdeck",
+      "review": {
+        "summary": "The Steam Deck OLED improves upon the original with a gorgeous display, better battery life, and refined ergonomics, making it the ultimate portable PC gaming device.",
+        "pros": [
+          "Stunning OLED display with vibrant colors",
+          "Access to entire Steam library",
+          "Improved battery life over original",
+          "Can install other PC game stores",
+          "Great value for portable PC gaming",
+          "Active community and mod support"
+        ],
+        "cons": [
+          "Can be heavy during long sessions",
+          "Fan noise can be noticeable",
+          "Not all games are verified/compatible",
+          "Linux-based OS has learning curve"
+        ],
+        "verdict": "For PC gamers who want to take their library on the go, the Steam Deck OLED is an incredible value that opens up new ways to enjoy gaming."
+      }
+    },
+    {
+      "id": "philips-hue-starter",
+      "title": "Philips Hue Smart Bulb Starter Kit",
+      "category": "smart-home",
+      "price": "$79",
+      "originalPrice": "$99",
+      "discount": "20%",
+      "rating": 4.5,
+      "shortDescription": "Smart lighting starter kit with color-changing bulbs and wireless bridge.",
+      "image": "💡",
+      "featured": false,
+      "affiliateLink": "https://philips-hue.com/starter-kit",
+      "review": {
+        "summary": "The Philips Hue starter kit is the perfect entry point into smart lighting, offering millions of colors, scheduling features, and integration with major smart home platforms.",
+        "pros": [
+          "16 million colors and warm/cool whites",
+          "Easy setup and reliable performance",
+          "Excellent app with scheduling features",
+          "Works with Alexa, Google, HomeKit",
+          "Energy efficient LED technology",
+          "Expandable ecosystem"
+        ],
+        "cons": [
+          "Expensive compared to basic smart bulbs",
+          "Requires Hue Bridge for full features",
+          "Subscription required for some features",
+          "Can be overkill for basic needs"
+        ],
+        "verdict": "While pricey, Philips Hue offers the most reliable and feature-rich smart lighting experience available, making it worth the investment for smart home enthusiasts."
+      }
+    }
+  ]
+}
