@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlitz Deals - Premium Tech Products & Reviews</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>TechBlitz<span class="neon-text">Deals</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="showcase.html" class="nav-link">Showcase</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Discover the <span class="neon-text">Future</span> of Tech
+                </h1>
+                <p class="hero-description">
+                    Curated reviews and deals on cutting-edge gadgets, AI tools, and smart devices. 
+                    Get the best tech at unbeatable prices.
+                </p>
+                <div class="hero-buttons">
+                    <a href="showcase.html" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Explore Products
+                    </a>
+                    <a href="#featured" class="btn btn-secondary">
+                        <i class="fas fa-star"></i>
+                        Featured Deals
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-microchip neon-icon"></i>
+                </div>
+                <div class="floating-card delay-1">
+                    <i class="fas fa-robot neon-icon"></i>
+                </div>
+                <div class="floating-card delay-2">
+                    <i class="fas fa-vr-cardboard neon-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="neon-text">Products</span></h2>
+                <p class="section-subtitle">Hand-picked tech that's changing the game</p>
+            </div>
+            <div class="products-grid" id="featured-products">
+                <!-- Featured products will be loaded here by JavaScript -->
+            </div>
+            <div class="section-footer">
+                <a href="showcase.html" class="btn btn-outline">
+                    <i class="fas fa-th-large"></i>
+                    View All Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Products Reviewed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number">4.9</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Deal Updates</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>TechBlitz<span class="neon-text">Deals</span></h3>
+                    <p>Your trusted source for tech reviews and deals.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="showcase.html">Showcase</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechBlitz Deals. All rights reserved. | <a href="about.html">Affiliate Disclaimer</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Review Modal -->
+    <div id="review-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
